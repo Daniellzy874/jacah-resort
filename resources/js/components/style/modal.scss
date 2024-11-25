@@ -1,0 +1,329 @@
+.modal-content {
+    width: 100vh;
+    height: 85vh;
+    transform: translate(-100px, 70px);
+
+    button.close {
+        border: none;
+        background-color: transparent;
+    }
+
+    span {
+        font-size: 30px;
+        color: red;
+        position: absolute;
+        top: 10px;
+        height: 50px;
+        width: 50px;
+        background-color: transparent;
+        border-radius: 50px;
+    }
+
+    .modal-body {
+        overflow: auto;
+        margin-bottom: 30px;
+
+        .photo {
+            width: 100%;
+            height: 60%;
+            background-color: red;
+            border-radius: 20px;
+        }
+
+        .content {
+            height: 100%;
+            width: 100%;
+            background-color: transparent;
+
+            .heading {
+                width: 100%;
+                height: 15%;
+                padding-top: 20px;
+                padding-left: 10px;
+
+                h1 {
+                    font-size: 20px;
+                }
+            }
+
+            .general-amenities {
+                width: 100%;
+                height: fit-content;
+                padding-left: 10px;
+
+                p {
+                    font-size: 15px;
+                    margin-right: 20px;
+
+                    svg {
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            .room-amenities {
+                width: 100%;
+                height: fit-content;
+                padding-left: 10px;
+
+                h1 {
+                    font-size: 20px;
+                }
+
+                .room-amenities-con {
+                    width: 100%;
+                    height: fit-content;
+
+                    .bathandbed {
+                        width: 100%;
+                        height: fit-content;
+                        display: flex;
+
+                        .bathroom {
+                            width: 50%;
+                            height: fit-content;
+                            display: inline-block;
+
+                            h2 {
+                                font-size: 15px;
+                                margin-left: 20px;
+                                margin-top: 10px;
+
+                                svg {
+                                    margin-right: 10px;
+                                }
+
+                            }
+
+                            ul {
+                                margin-left: 44px;
+                            }
+                        }
+
+                        .bedroom {
+                            width: 50%;
+                            height: 100%;
+                            display: inline-block;
+
+                            h2 {
+                                font-size: 15px;
+                                margin-left: 20px;
+                                margin-top: 10px;
+
+                                svg {
+                                    margin-right: 10px;
+                                }
+                            }
+
+                            ul {
+                                margin-left: 44px;
+                            }
+                        }
+                    }
+
+                    .internetandfood {
+                        width: 100%;
+                        height: fit-content;
+                        display: flex;
+
+                        .internet {
+                            width: 50%;
+                            height: 100%;
+                            display: inline-block;
+
+                            h2 {
+                                font-size: 15px;
+                                margin-left: 20px;
+                                margin-top: 10px;
+
+                                svg {
+                                    margin-right: 10px;
+                                }
+                            }
+
+                            ul {
+                                margin-left: 44px;
+                            }
+                        }
+
+                        .food {
+                            width: 50%;
+                            height: 100%;
+                            display: inline-block;
+
+                            h2 {
+                                font-size: 15px;
+                                margin-left: 20px;
+                                margin-top: 10px;
+
+                                svg {
+                                    margin-right: 10px;
+                                }
+                            }
+
+                            ul {
+                                margin-left: 44px;
+                            }
+                        }
+                    }
+
+                    .entertainmentandmore {
+                        width: 100%;
+                        height: fit-content;
+                        display: flex;
+
+                        .entertainment {
+                            width: 50%;
+                            height: 100%;
+                            display: inline-block;
+
+                            h2 {
+                                font-size: 15px;
+                                margin-left: 20px;
+                                margin-top: 10px;
+
+                                svg {
+                                    margin-right: 10px;
+                                }
+                            }
+
+                            ul {
+                                margin-left: 44px;
+                            }
+                        }
+
+                        .more {
+                            width: 50%;
+                            height: 100%;
+                            display: inline-block;
+
+                            h2 {
+                                font-size: 15px;
+                                margin-left: 20px;
+                                margin-top: 10px;
+
+                                svg {
+                                    margin-right: 10px;
+                                }
+                            }
+
+                            ul {
+                                margin-left: 44px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .option {
+                width: 100%;
+                height: 70%;
+                border: 1px solid black;
+                border-radius: 20px;
+
+                .option-con-list {
+                    width: 100%;
+                    height: 50%;
+                    display: grid;
+
+                    .room-option-list {
+                        width: 95%;
+                        height: fit-content;
+                        justify-self: center;
+                        border-bottom: 1px solid black;
+
+                        .room-option {
+                            height: 20%;
+                            padding-top: 20px;
+                            display: flex;
+
+                            h3 {
+                                font-size: 20px;
+                            }
+                        }
+
+                        .cancelpolicy {
+                            height: 20%;
+
+                            h3 {
+                                font-size: 15px;
+                            }
+                        }
+
+                        .refundable-option {
+                            height: 25%;
+                            display: flex;
+
+                            .refundable {
+                                width: 50%;
+                                height: 100%;
+                                background-color: white;
+
+                                input {
+                                    height: 20px;
+                                    width: 20px;
+                                    margin-right: 8px;
+                                }
+
+                                p {
+                                    font-size: 12px;
+                                    margin-left: 29px;
+                                }
+                            }
+
+                            .fee {
+                                width: 50%;
+                                height: 100%;
+
+                                h3 {
+                                    font-size: 20px;
+                                    float: right;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .container-price {
+                    width: 100%;
+                    height: 50%;
+                    display: grid;
+
+                    .price-sub-con {
+                        justify-self: center;
+                        width: 95%;
+                        display: flex;
+
+                        .price-sub-list {
+                            height: 100%;
+                            width: 50%;
+
+                            .subtotal {
+                                display: flex;
+
+                                p {
+                                    margin-left: 7px;
+                                }
+                            }
+
+
+                        }
+
+                        .reserve-btn {
+                            height: 100%;
+                            width: 50%;
+                            padding-top: 120px;
+
+                            .btn {
+                                padding: 10px 30px 10px 30px;
+                                float: right;
+                                border-radius: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

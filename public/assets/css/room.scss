@@ -1,0 +1,150 @@
+section#room_section {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section {
+    .home_con {
+        width: 100%;
+        height: 70%;
+
+    }
+
+    .full_container {
+        width: 100%;
+        height: 100%;
+
+
+        .top_con {
+
+            width: 100%;
+            height: 12%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .content {
+                background-color: purple;
+                width: 90%;
+                height: 100%;
+            }
+
+        }
+
+        .content_con {
+            width: 100%;
+            height: 100%;
+            padding-left: 25px;
+
+            .main_content_list {
+                width: 85%;
+                height: fit-content;
+                padding-top: 20px;
+
+                #portal {
+
+                    .list_content {
+                        background-color: white;
+                        margin: 5px;
+                        height: 100%;
+                        width: 32%;
+                        display: inline-flex;
+                        border-radius: 10px;
+                        box-shadow: 0 0 120px 0 rgba(0, 0, 0, 0.1),
+                            0 32px 64px -48px rgba(0, 0, 0, 0.5);
+
+                        .content_photo {
+                            width: 100%;
+                            height: 30%;
+                            background-color: #000;
+
+                            border-top-left-radius: 10px;
+                            border-top-right-radius: 10px;
+                        }
+
+                        .content_text {
+                            width: 100%;
+                            height: 70%;
+                            border-bottom-left-radius: 10px;
+                            border-bottom-right-radius: 10px;
+
+                            .room_name {
+                                width: 100%;
+                                padding: 10px;
+                                display: flex;
+
+                                h1 {
+
+                                    font-size: 15px;
+                                }
+                            }
+
+                            .room_description {
+                                width: 100%;
+                                height: 65%;
+
+                                h1 {
+                                    width: 100%;
+                                    font-size: 13px;
+                                    padding: 10px;
+                                }
+
+                            }
+
+                            .room_price {
+                                width: 100%;
+                                height: 25%;
+                                display: flex;
+
+                                .reserve_btn {
+                                    height: 100%;
+                                    width: 50%;
+                                    display: flex;
+                                    justify-content: last baseline;
+                                    align-items: last baseline;
+                                    padding: 15px;
+                                }
+
+                                .reserve_price {
+                                    height: 100%;
+                                    width: 50%;
+                                    display: flex;
+                                    justify-content: flex-end;
+                                    align-items: flex-end;
+                                    padding: 15px;
+
+                                    a {
+                                        background-color: #47c559;
+                                        display: flex;
+                                        width: 90%;
+                                        height: 50%;
+                                        justify-content: center;
+                                        align-items: center;
+                                        border-radius: 20px;
+                                        color: #fff;
+
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .right_con {
+
+                height: 100dvh;
+                width: 15%;
+                background-color: purple;
+            }
+        }
+
+
+    }
+}

@@ -1,0 +1,115 @@
+section#room_section {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .home_con {
+  width: 100%;
+  height: 70%;
+}
+section .full_container {
+  width: 100%;
+  height: 100%;
+}
+section .full_container .top_con {
+  width: 100%;
+  height: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .full_container .top_con .content {
+  background-color: purple;
+  width: 90%;
+  height: 100%;
+}
+section .full_container .content_con {
+  width: 100%;
+  height: 100%;
+  padding-left: 25px;
+}
+section .full_container .content_con .main_content_list {
+  width: 85%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-top: 20px;
+}
+section .full_container .content_con .main_content_list #portal .list_content {
+  background-color: white;
+  margin: 5px;
+  height: 100%;
+  width: 32%;
+  display: inline-flex;
+  border-radius: 10px;
+  box-shadow: 0 0 120px 0 rgba(0, 0, 0, 0.1), 0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+section .full_container .content_con .main_content_list #portal .list_content .content_photo {
+  width: 100%;
+  height: 30%;
+  background-color: #000;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+section .full_container .content_con .main_content_list #portal .list_content .content_text {
+  width: 100%;
+  height: 70%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+section .full_container .content_con .main_content_list #portal .list_content .content_text .room_name {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+}
+section .full_container .content_con .main_content_list #portal .list_content .content_text .room_name h1 {
+  font-size: 15px;
+}
+section .full_container .content_con .main_content_list #portal .list_content .content_text .room_description {
+  width: 100%;
+  height: 65%;
+}
+section .full_container .content_con .main_content_list #portal .list_content .content_text .room_description h1 {
+  width: 100%;
+  font-size: 13px;
+  padding: 10px;
+}
+section .full_container .content_con .main_content_list #portal .list_content .content_text .room_price {
+  width: 100%;
+  height: 25%;
+  display: flex;
+}
+section .full_container .content_con .main_content_list #portal .list_content .content_text .room_price .reserve_btn {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: last baseline;
+  align-items: last baseline;
+  padding: 15px;
+}
+section .full_container .content_con .main_content_list #portal .list_content .content_text .room_price .reserve_price {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 15px;
+}
+section .full_container .content_con .main_content_list #portal .list_content .content_text .room_price .reserve_price a {
+  background-color: #47c559;
+  display: flex;
+  width: 90%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  color: #fff;
+}
+section .full_container .content_con .right_con {
+  height: 100dvh;
+  width: 15%;
+  background-color: purple;
+}/*# sourceMappingURL=room.css.map */

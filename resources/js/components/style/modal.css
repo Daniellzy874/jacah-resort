@@ -1,0 +1,273 @@
+.modal-content {
+  width: 100vh;
+  height: 85vh;
+  transform: translate(-100px, 70px);
+}
+.modal-content button.close {
+  border: none;
+  background-color: transparent;
+}
+.modal-content span {
+  font-size: 30px;
+  color: red;
+  position: absolute;
+  top: 10px;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border-radius: 50px;
+}
+.modal-content .modal-body {
+  overflow: auto;
+  margin-bottom: 30px;
+}
+.modal-content .modal-body .photo {
+  width: 100%;
+  height: 60%;
+  background-color: red;
+  border-radius: 20px;
+}
+.modal-content .modal-body .content {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+.modal-content .modal-body .content .heading {
+  width: 100%;
+  height: 15%;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.modal-content .modal-body .content .heading h1 {
+  font-size: 20px;
+}
+.modal-content .modal-body .content .general-amenities {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-left: 10px;
+}
+.modal-content .modal-body .content .general-amenities p {
+  font-size: 15px;
+  margin-right: 20px;
+}
+.modal-content .modal-body .content .general-amenities p svg {
+  margin-right: 10px;
+}
+.modal-content .modal-body .content .room-amenities {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-left: 10px;
+}
+.modal-content .modal-body .content .room-amenities h1 {
+  font-size: 20px;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .bathandbed {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .bathandbed .bathroom {
+  width: 50%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: inline-block;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .bathandbed .bathroom h2 {
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .bathandbed .bathroom h2 svg {
+  margin-right: 10px;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .bathandbed .bathroom ul {
+  margin-left: 44px;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .bathandbed .bedroom {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .bathandbed .bedroom h2 {
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .bathandbed .bedroom h2 svg {
+  margin-right: 10px;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .bathandbed .bedroom ul {
+  margin-left: 44px;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .internetandfood {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .internetandfood .internet {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .internetandfood .internet h2 {
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .internetandfood .internet h2 svg {
+  margin-right: 10px;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .internetandfood .internet ul {
+  margin-left: 44px;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .internetandfood .food {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .internetandfood .food h2 {
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .internetandfood .food h2 svg {
+  margin-right: 10px;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .internetandfood .food ul {
+  margin-left: 44px;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .entertainmentandmore {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .entertainmentandmore .entertainment {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .entertainmentandmore .entertainment h2 {
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .entertainmentandmore .entertainment h2 svg {
+  margin-right: 10px;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .entertainmentandmore .entertainment ul {
+  margin-left: 44px;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .entertainmentandmore .more {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .entertainmentandmore .more h2 {
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .entertainmentandmore .more h2 svg {
+  margin-right: 10px;
+}
+.modal-content .modal-body .content .room-amenities .room-amenities-con .entertainmentandmore .more ul {
+  margin-left: 44px;
+}
+.modal-content .modal-body .content .option {
+  width: 100%;
+  height: 70%;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.modal-content .modal-body .content .option .option-con-list {
+  width: 100%;
+  height: 50%;
+  display: grid;
+}
+.modal-content .modal-body .content .option .option-con-list .room-option-list {
+  width: 95%;
+  height: -moz-fit-content;
+  height: fit-content;
+  justify-self: center;
+  border-bottom: 1px solid black;
+}
+.modal-content .modal-body .content .option .option-con-list .room-option-list .room-option {
+  height: 20%;
+  padding-top: 20px;
+  display: flex;
+}
+.modal-content .modal-body .content .option .option-con-list .room-option-list .room-option h3 {
+  font-size: 20px;
+}
+.modal-content .modal-body .content .option .option-con-list .room-option-list .cancelpolicy {
+  height: 20%;
+}
+.modal-content .modal-body .content .option .option-con-list .room-option-list .cancelpolicy h3 {
+  font-size: 15px;
+}
+.modal-content .modal-body .content .option .option-con-list .room-option-list .refundable-option {
+  height: 25%;
+  display: flex;
+}
+.modal-content .modal-body .content .option .option-con-list .room-option-list .refundable-option .refundable {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
+.modal-content .modal-body .content .option .option-con-list .room-option-list .refundable-option .refundable input {
+  height: 20px;
+  width: 20px;
+  margin-right: 8px;
+}
+.modal-content .modal-body .content .option .option-con-list .room-option-list .refundable-option .refundable p {
+  font-size: 12px;
+  margin-left: 29px;
+}
+.modal-content .modal-body .content .option .option-con-list .room-option-list .refundable-option .fee {
+  width: 50%;
+  height: 100%;
+}
+.modal-content .modal-body .content .option .option-con-list .room-option-list .refundable-option .fee h3 {
+  font-size: 20px;
+  float: right;
+}
+.modal-content .modal-body .content .option .container-price {
+  width: 100%;
+  height: 50%;
+  display: grid;
+}
+.modal-content .modal-body .content .option .container-price .price-sub-con {
+  justify-self: center;
+  width: 95%;
+  display: flex;
+}
+.modal-content .modal-body .content .option .container-price .price-sub-con .price-sub-list {
+  height: 100%;
+  width: 50%;
+}
+.modal-content .modal-body .content .option .container-price .price-sub-con .price-sub-list .subtotal {
+  display: flex;
+}
+.modal-content .modal-body .content .option .container-price .price-sub-con .price-sub-list .subtotal p {
+  margin-left: 7px;
+}
+.modal-content .modal-body .content .option .container-price .price-sub-con .reserve-btn {
+  height: 100%;
+  width: 50%;
+  padding-top: 120px;
+}
+.modal-content .modal-body .content .option .container-price .price-sub-con .reserve-btn .btn {
+  padding: 10px 30px 10px 30px;
+  float: right;
+  border-radius: 20px;
+}/*# sourceMappingURL=modal.css.map */
